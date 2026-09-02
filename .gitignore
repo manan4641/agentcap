@@ -1,0 +1,74 @@
+# ---------------------------------------------------------------------------
+# Dependencies
+# ---------------------------------------------------------------------------
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# ---------------------------------------------------------------------------
+# Local usage data -- NEVER COMMIT THIS
+#
+# AgentCap's SQLite log holds real session cost history: what you worked on,
+# when, which projects, and what it cost. It lives in ~/.agentcap by default,
+# but AGENTCAP_HOME can point anywhere, so guard against it landing here.
+# SQLite in WAL mode also writes -wal and -shm sidecar files.
+# ---------------------------------------------------------------------------
+.agentcap/
+usage.db
+usage.db-wal
+usage.db-shm
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------------------------------------
+# Transcripts
+#
+# Claude Code transcripts contain full conversation content, file contents, and
+# usage data. Test fixtures write .jsonl files too. Keep all of it out.
+# ---------------------------------------------------------------------------
+*.jsonl
+
+# ---------------------------------------------------------------------------
+# Secrets and local environment
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---------------------------------------------------------------------------
+# Build and packaging output
+# ---------------------------------------------------------------------------
+*.tgz
+dist/
+build/
+coverage/
+.nyc_output/
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-error.log*
+logs/
+
+# ---------------------------------------------------------------------------
+# OS and editor cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

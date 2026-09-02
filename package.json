@@ -1,0 +1,36 @@
+{
+  "name": "agentcap",
+  "version": "0.1.0",
+  "description": "A hard, real-time dollar cap on Claude Code sessions, so a runaway agent can't burn an unexpected bill.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "One Click Era (Abdul Manan)",
+  "type": "commonjs",
+  "bin": {
+    "agentcap": "bin/agentcap.js"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "agentcap": "node bin/agentcap.js"
+  },
+  "keywords": [
+    "claude-code",
+    "spend-cap",
+    "budget",
+    "cost-tracking",
+    "ai-agents",
+    "cli"
+  ],
+  "dependencies": {
+    "better-sqlite3": "^11.5.0"
+  }
+}

@@ -1,0 +1,143 @@
+AgentCap Source-Available Licence
+Version 1.0
+
+Copyright (c) 2026 One Click Era (Abdul Manan). All Rights Reserved.
+
+This software is source-available, not open source. An individual may read the source,
+run it, and modify it for their own personal work at no charge. Any use by or on behalf
+of a company or organisation — including purely internal use — requires a separate paid
+commercial licence.
+
+--------------------------------------------------------------------------------
+1. DEFINITIONS
+--------------------------------------------------------------------------------
+
+"The Software" means AgentCap, including its source code, documentation, and any
+modifications you make to it.
+
+"The Licensor" means One Click Era (Abdul Manan), the copyright holder.
+
+"You" means the individual or legal entity exercising the rights granted here.
+
+"Organisation" means any company, partnership, sole trader, non-profit, government
+body, educational institution, or other legal entity — and any individual acting on
+behalf of one, or for its benefit.
+
+"Personal Use" means use by a natural person, acting on their own behalf, for their
+own private projects, self-directed learning, or personal research. Use is NOT
+Personal Use if it is carried out for an employer, a client, a customer, or any
+Organisation, or if it forms part of work You are paid to perform.
+
+--------------------------------------------------------------------------------
+2. WHAT YOU MAY DO (GRANT OF RIGHTS)
+--------------------------------------------------------------------------------
+
+Subject to Section 3, the Licensor grants You a worldwide, royalty-free,
+non-exclusive, perpetual licence to:
+
+  (a) Use the Software for Personal Use, as defined in Section 1, at no charge.
+
+  (b) Modify the Software, and create derivative works of it, for Your own
+      Personal Use.
+
+  (c) Copy and distribute the unmodified Software, at no charge, provided every
+      copy retains this licence file and the copyright notice intact.
+
+No payment is required for the above, and You do not need to contact the Licensor to
+exercise these rights.
+
+This grant runs to individuals only. It does NOT extend to any Organisation, and it
+does not cover work You perform for an employer or a client. See Section 3(a).
+
+--------------------------------------------------------------------------------
+3. WHAT YOU MAY NOT DO (RESTRICTIONS)
+--------------------------------------------------------------------------------
+
+Without a separate written commercial licence from the Licensor, You may NOT:
+
+  (a) Use the Software by or on behalf of an Organisation, or for the benefit of one.
+      This includes purely internal use: running the Software on a company's own
+      machines, for its own projects, without distributing it to anyone, still
+      requires a paid commercial licence. It also includes use by an individual in
+      the course of work performed for an employer or a client.
+
+  (b) Sell, resell, sublicense, rent, or lease the Software, or charge any fee for
+      providing it to a third party.
+
+  (c) Offer the Software, or any derivative or substantial portion of it, to third
+      parties as a hosted, managed, or software-as-a-service offering, or as any
+      product or service that competes with the Software.
+
+  (d) Bundle, embed, or incorporate the Software into a product or service that You
+      sell, license, or otherwise commercialise.
+
+  (e) Remove, obscure, or alter any copyright notice, licence text, or attribution
+      contained in the Software.
+
+  (f) Redistribute the Software under a different name, or otherwise present it as
+      Your own work.
+
+  (g) Use the Licensor's name or trademarks to endorse or promote products derived
+      from the Software without prior written permission.
+
+--------------------------------------------------------------------------------
+4. COMMERCIAL LICENCE
+--------------------------------------------------------------------------------
+
+If You want to do anything listed in Section 3, a paid commercial licence is
+available. Contact the Licensor to arrange one.
+
+--------------------------------------------------------------------------------
+5. TERMINATION
+--------------------------------------------------------------------------------
+
+If You breach Section 3, the rights granted in Section 2 terminate automatically.
+They are reinstated if You cure the breach within 30 days of becoming aware of it.
+Rights already exercised in compliance with this licence before termination are
+unaffected.
+
+--------------------------------------------------------------------------------
+6. NO WARRANTY
+--------------------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, ACCURACY, AND NONINFRINGEMENT.
+
+You acknowledge specifically that:
+
+  (a) The Software TERMINATES RUNNING PROCESSES when a spend cap is reached. This
+      may interrupt work in progress and cause unsaved work to be lost. You accept
+      this risk and are responsible for saving and committing Your work.
+
+  (b) Cost figures produced by the Software are LOCAL ESTIMATES computed from
+      Anthropic API list prices, not billing statements. They may differ from
+      amounts actually charged to You, and are not a guarantee of any spend limit.
+      The Software's own documentation describes known gaps in its measurements.
+      You remain solely responsible for monitoring and controlling Your own
+      account spend.
+
+  (c) The Software depends on third-party software (including Claude Code) whose
+      behaviour may change at any time, which may cause the Software to
+      mis-measure or fail to enforce a cap.
+
+--------------------------------------------------------------------------------
+7. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE. THIS INCLUDES, WITHOUT LIMITATION, ANY API CHARGES, BILLING
+OVERRUNS, LOST WORK, LOST DATA, LOST PROFITS, BUSINESS INTERRUPTION, OR
+CONSEQUENTIAL, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+Nothing in this licence excludes liability that cannot lawfully be excluded.
+
+--------------------------------------------------------------------------------
+8. NO OTHER RIGHTS
+--------------------------------------------------------------------------------
+
+All rights not expressly granted in Section 2 are reserved by the Licensor. This
+licence grants no patent rights.
