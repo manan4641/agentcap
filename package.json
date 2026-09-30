@@ -2,6 +2,14 @@
   "name": "agentcap",
   "version": "0.1.0",
   "description": "A hard, real-time dollar cap on Claude Code sessions, so a runaway agent can't burn an unexpected bill.",
+  "homepage": "https://agentcap.oneclickera.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manan4641/agentcap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manan4641/agentcap/issues"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "author": "One Click Era (Abdul Manan)",
   "type": "commonjs",
