@@ -27,7 +27,7 @@ Or run it without installing:
 npx @oneclickera/agentcap run --cap 5.00 -- claude
 ```
 
-Requires Node 18.17+.
+Requires Node 20 or newer.
 
 ### If you get `agentcap: command not found` after installing
 
@@ -230,7 +230,7 @@ soft-cap (warn-only) mode, team dashboards, Slack/SMS alerts.
 
 ```bash
 npm install
-npm test          # 49 tests, no API credits spent
+npm test          # 48 tests, no API credits spent
 ```
 
 The suite runs against `test/fake-claude.js`, a stand-in for the real binary that fires real

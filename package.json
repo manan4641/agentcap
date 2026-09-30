@@ -21,7 +21,7 @@
   },
   "main": "src/index.js",
   "engines": {
-    "node": ">=18.17"
+    "node": ">=20.0.0"
   },
   "files": [
     "bin",
@@ -30,7 +30,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test test/*.test.js",
     "agentcap": "node bin/agentcap.js"
   },
   "keywords": [
@@ -42,6 +42,6 @@
     "cli"
   ],
   "dependencies": {
-    "better-sqlite3": "^11.5.0"
+    "better-sqlite3": "^12.11.1"
   }
 }
