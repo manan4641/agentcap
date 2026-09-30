@@ -249,8 +249,13 @@ AgentCap is **source-available, not open source**. The full terms are in
 
 - You, as an individual, using AgentCap on your own personal projects.
 - Self-directed learning and personal research.
-- Modifying it for your own personal use.
 - Passing along unmodified copies, with the licence and copyright notice left intact.
+
+**Modification requires credit.** You can only modify AgentCap with proper credit given to
+the original owner. That means keeping the copyright notice and licence intact, stating
+clearly that your version is based on AgentCap by One Click Era (Abdul Manan) and has been
+modified, and not presenting it as your own original work. Modifying it without giving
+credit is not permitted.
 
 **Requires a paid commercial licence:**
 
