@@ -18,13 +18,13 @@ SQLite file you own.
 ## Install
 
 ```bash
-npm install -g agentcap
+npm install -g @oneclickera/agentcap
 ```
 
 Or run it without installing:
 
 ```bash
-npx agentcap run --cap 5.00 -- claude
+npx @oneclickera/agentcap run --cap 5.00 -- claude
 ```
 
 Requires Node 18.17+.
@@ -47,7 +47,7 @@ The most reliable fix is a small launcher in a directory that's always on `PATH`
 calls node by absolute path instead of relying on `#!/usr/bin/env node`:
 
 ```bash
-printf '#!/bin/sh\nexec "%s" "%s" "$@"\n' "$(command -v node)" "$(npm prefix -g)/lib/node_modules/agentcap/bin/agentcap.js" \
+printf '#!/bin/sh\nexec "%s" "%s" "$@"\n' "$(command -v node)" "$(npm prefix -g)/lib/node_modules/@oneclickera/agentcap/bin/agentcap.js" \
   > /usr/local/bin/agentcap && chmod +x /usr/local/bin/agentcap
 ```
 

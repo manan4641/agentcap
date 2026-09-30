@@ -71,7 +71,7 @@ Developers running autonomous coding agents (Claude Code, Codex, custom agent lo
 - **Local storage:** SQLite (via a lightweight library — `better-sqlite3` for Node, or the built-in `sqlite3` module for Python). No server, no external database.
 - **Integration point:** Claude Code's hooks configuration (`PreToolUse` / `PostToolUse` / session-end hooks) to capture token/cost data per tool call — this avoids building a full network proxy, which would be far more complex and fragile.
 - **Notifications:** OS-native desktop notifications (`node-notifier` for Node, or `plyer`/`terminal-notifier` for Python/macOS); no external notification service.
-- **Packaging/distribution:** npm package (`npx agentcap`) or a pip package (`pipx install agentcap`) — whichever matches the language choice, so install is a single command.
+- **Packaging/distribution:** npm package (`npx @oneclickera/agentcap`) or a pip package (`pipx install agentcap`) — whichever matches the language choice, so install is a single command.
 - **No cloud infrastructure, no hosting, no third-party API keys required** beyond the user's own Anthropic API key, which they already have.
 
 ## Week-by-Week Plan

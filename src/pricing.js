@@ -84,7 +84,7 @@ function ratesFor(model, { speed } = {}) {
       {
         hint:
           'This usually means a new Claude model shipped. Update AgentCap ' +
-          '(npm i -g agentcap@latest), or add the model to src/pricing.js.',
+          '(npm i -g @oneclickera/agentcap@latest), or add the model to src/pricing.js.',
       }
     );
   }
