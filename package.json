@@ -1,6 +1,6 @@
 {
   "name": "@oneclickera/agentcap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A hard, real-time dollar cap on Claude Code sessions, so a runaway agent can't burn an unexpected bill.",
   "homepage": "https://agentcap.oneclickera.com/",
   "repository": {
@@ -35,10 +35,15 @@
   },
   "keywords": [
     "claude-code",
+    "claude",
+    "anthropic",
+    "ai-agents",
+    "agentic-coding",
     "spend-cap",
     "budget",
     "cost-tracking",
-    "ai-agents",
+    "token-usage",
+    "llm-cost",
     "cli"
   ],
   "dependencies": {
